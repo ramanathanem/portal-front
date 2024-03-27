@@ -36,7 +36,7 @@ function DisplayJob() {
 }
 
   const fetchData = async () => {
-    const response = await axios.get(`http://localhost:5000/job/specificjob/${id}`);
+    const response = await axios.get(`https://portal-backend-w2dr.onrender.com/job/specificjob/${id}`);
     setData([response.data]);
   };
 
@@ -59,7 +59,7 @@ function DisplayJob() {
     formData.append('candidateId', authid);
 
     try {
-      const response = await axios.post(`http://localhost:5000/post/apply/${id}`, formData, {
+      const response = await axios.post(`https://portal-backend-w2dr.onrender.com/post/apply/${id}`, formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },

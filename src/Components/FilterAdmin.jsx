@@ -17,7 +17,7 @@ function FilterAdmin({ setData }) {
 
   const fetchData = async () => {
     try {
-      const response = await axios.get(`http://localhost:5000/job/specificjob/${jobid}`);
+      const response = await axios.get(`https://portal-backend-w2dr.onrender.com/job/specificjob/${jobid}`);
       setData(response.data.applicants);
       setJobData([response.data]);
       setOriginalData(response.data);

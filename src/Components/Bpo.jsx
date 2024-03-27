@@ -9,7 +9,7 @@ function Bpo() {
 
     const fetchData = async () => {
         try {
-            const response = await axios.get('http://localhost:5000/job/getdata'); 
+            const response = await axios.get('https://portal-backend-w2dr.onrender.com/job/getdata'); 
             const filteredData = response.data.filter(entry => entry.category === "Bpo");
             setData(filteredData);
         } catch (error) {

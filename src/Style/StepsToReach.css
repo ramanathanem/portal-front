@@ -1,0 +1,14 @@
+#steps{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: rgb(88 88 88/var(--tw-text-opacity));
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+}
+#head{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    
+}

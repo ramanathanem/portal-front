@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Great+Vibes&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans+Sora+Sompeng:wght@400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+.profile-info{
+    background-color: aliceblue ;
+    border-radius: 10px;
+}
+.profile-name{
+    font-size: xxx-large;
+     color: #15317E;
+    font-family: "Noto Sans Sora Sompeng", sans-serif;
+     font-optical-sizing: auto;
+      font-weight: 600;
+     font-style: normal;
+ 
+}
+
+@media (max-width : 768px) {
+    .profile-name{
+        font-size:x-large;
+      
+     
+    }
+}
+
+.profile-contact{
+    font-size: large;
+    font-weight:500;
+   
+    color: #1d2859;
+    font-family: Satoshi,"Satoshi Fallback";
+
+}
+.upload-cv{
+    background-color: aliceblue ;
+    border-radius: 10px;
+}
+
+.profile-resume{
+    font-size: x-large;
+    font-weight: 500;
+    font-family: Roboto,sans-serif;
+}
+
+
+
+
+.profile-pdf{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #121224;
+    font-family: Roboto,sans-serif;
+}
+.profile-pdfdate{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #121224;
+    font-family: Roboto,sans-serif;
+}
+.cv-icon{
+    font-size: large;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 2px;
+  
+}
+.upload-profilecv{
+  border-style: groove;
+  color: #666 ;
+  cursor: pointer;
+  font-weight: 100;
+}
+
+.profile{
+    background-color: aliceblue ;
+    border-radius: 10px;
+}
+
+.profile-summary{
+    font-size: large;
+    color: #665f5f;
+    font-weight: 500;
+}
+.profile-summary::first-letter {
+    margin-left: 5.5rem; /* Adjust the space as needed */
+  }
+
+.keyskill{
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.profile-key{
+    font-size: x-large;
+    font-weight: 500;
+    color: #121224;
+    font-family: Roboto,sans-serif;
+}
+
+
+.profile .profile-jobskill{
+background: #fff;
+padding: 4.5px 8px;
+border: 1px solid var(--N400);
+border-radius: 50px;
+background-color: #474d6a31;
+max-width: 515px;
+font-family: Roboto,sans-serif ;
+}
+.profile-education{
+    height: 400px;
+    width: 1260px;
+}
+.pro-bgg{
+    background-color: #fff;
+    
+}
+.profile-keys{
+    font-size: x-large;
+    font-weight: 500;
+    line-height: 18px;
+    color: #121224;
+    font-family: Roboto,sans-serif;
+}
+.edu{
+    background-color: aliceblue;
+   border-radius: 10px;
+   
+   font-family: Roboto,sans-serif;
+}
+.degree-education{
+    font-size: large;
+    line-height:18px ;
+    font-weight: 700;
+    color: #121224;
+    font-family: Roboto,sans-serif;
+}
+.edc-clg{
+    word-wrap: break-word;
+    font-size: 16px;
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    line-height: 18px;
+
+}
+.edit-profile{
+    font-size: 16px;
+    cursor: pointer;
+    padding: 0 12px;
+    text-align: center;
+    color: #717b9e;
+}
+.profile-explogo {
+    font-size: 14px;
+    font-family: fontIcons;
+}
+
+.profile-sign{
+   background-color: #47b749;
+  border-radius: 40px;
+}
+
+.format{
+    color: #717b9e;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    font-family:  Roboto,sans-serif;
+}
+.write-education{
+    font-family: Roboto,sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #275df5;
+    cursor: pointer;
+}
+
+.personal-details{
+    color: #121224;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+}
+.personal-dob{
+color: #717b9e;
+font-size: 14px;
+font-weight: 500;
+line-height: 18px;
+}
+.dob-candidate{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #474d6a;
+}
+.personal{
+   
+    background-color: aliceblue;
+   border-radius: 10px;
+   font-family: Roboto,sans-serif;
+}
+.profile-language{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #717b9e;
+    border-bottom: 1px solid #e7e7f1;
+}
+
+.lang{
+    font-size: 14px;
+    color: #474d6a;
+    font-weight: 700;
+}
+.profile-table{
+    background-color: aliceblue;
+    border-radius: 10px;
+}

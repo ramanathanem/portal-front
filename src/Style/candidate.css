@@ -1,0 +1,37 @@
+.candidate-main{
+    margin: 20px;
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+.candidate-name{
+    font-size: xxx-large;
+    font-weight: 600;
+    color: deepskyblue;
+}
+.candidate-email{
+    color: steelblue;
+}
+.candidate-job{
+    font-size: x-large;
+    font-weight: 600;
+    color: gray;
+}
+@media (max-width:768px) {
+    .candidate-data{
+      font-size: 14px;
+    }
+    .candidate-name{
+        font-size: x-large;
+
+    }
+    .candidate-job{
+        font-size: 16px;
+     
+    }
+    .candidate-email{
+    font-size: 12px;
+    }
+
+}

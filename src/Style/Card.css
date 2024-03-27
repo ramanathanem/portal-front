@@ -1,0 +1,31 @@
+#shadow{
+    width: 220px;
+     height: 220px;
+    background-color: rgb(241 243 250/var(--tw-bg-opacity));
+    --tw-bg-opacity:1;
+       box-shadow: rgba(59,130,246,.5);
+       left: 21%;
+ }
+
+ 
+ #img-bg{
+     border: 0 solid #e5e7eb;
+   
+     margin-top: 40px;
+     height: 50px;
+     
+ }
+ .call-job{
+font-size: 1.5rem;
+line-height: 2rem;
+font-weight: 700;
+--tw-text-opacity:1;
+color: rgb(65 84 175/var(--tw-text-opacity));
+ }
+ .interview-type{
+    font-size: .875rem;
+    line-height: 1.25rem;
+    --tw-text-opacity:1;
+    color: rgb(65 84 175/var(--tw-text-opacity));
+    font-weight: 500;
+ }

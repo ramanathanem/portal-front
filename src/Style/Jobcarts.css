@@ -1,0 +1,69 @@
+.job-border{
+    background-color: white;
+    padding-top: 8px;
+    border-radius: 20px;
+}
+.bg-color-job{
+    background-color: #f7f7f8;
+}
+.job-time-types{
+  
+   background-color: orange;
+   width: 70px;
+  margin-left: 10px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 10px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+ 
+}
+.it-domains{
+    font-size: 18px;
+    font-family: "Indeed Sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, "Liberation Sans", Roboto, Noto, sans-serif;
+color: rgb(45, 45, 45);
+font-weight: 300;
+  font-style: normal;
+}
+.data-position{
+    font-size: 19px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+  font-style: normal;
+  /* color: #96589D; */
+}
+.data-exp{
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    color: green;
+    font-weight: 700;
+}
+.data-location-type{
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+}
+.jobs-ctc{
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+.view-job{
+    font-size: 14px;
+    color: green;
+    font-style:oblique;
+    background-color: aliceblue;
+cursor: pointer;
+border-radius: 10px;
+list-style: none;
+padding: 2px;
+letter-spacing: normal;
+}
+.view-job:hover{
+    background-color: #cdfdfd;
+    color: rgb(36, 128, 0);
+   
+}

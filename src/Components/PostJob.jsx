@@ -43,7 +43,7 @@ function PostJob({setModalShow}) {
       console.log("Form Data:", values); // Output form data as an object
   
       const formData = values;
-      const response = await axios.post('http://localhost:5000/job/upload', formData);
+      const response = await axios.post('https://portal-backend-w2dr.onrender.com/job/upload', formData);
   
       console.log("Response:", response.data);
   

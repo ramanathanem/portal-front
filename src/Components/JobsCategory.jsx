@@ -36,7 +36,7 @@ function JobsCategory() {
     
     const fetchOpeningsData = async () => {
   
-      const response = await fetch('http://localhost:5000/job/getdata');
+      const response = await fetch('https://portal-backend-w2dr.onrender.com/job/getdata');
       const data = await response.json();
     
       setOpeningsData(data);

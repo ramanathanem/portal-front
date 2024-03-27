@@ -20,7 +20,7 @@ const Education = ({handleCloseModal}) => {
   const fetchEducationData = async () => {
     try {
       
-      const response = await axios.get(`http://localhost:5000/profile/specificprofile/${authId}`);
+      const response = await axios.get(`https://portal-backend-w2dr.onrender.com/profile/specificprofile/${authId}`);
       const existingEducation = response.data.education;
 
      
@@ -35,7 +35,7 @@ const Education = ({handleCloseModal}) => {
     console.log('submit data', education);
 
     try {
-        const response = await axios.post(`http://localhost:5000/profile/education/${authId}`, education);
+        const response = await axios.post(`https://portal-backend-w2dr.onrender.com/profile/education/${authId}`, education);
         console.log("education :",response)
 
         if(response.status == 201){

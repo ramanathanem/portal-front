@@ -28,7 +28,7 @@ const CandidateProfile = () => {
 
   const fetchData = async () => {
     try {
-      const response = await axios.get(`http://localhost:5000/profile/specificprofile/${authId}`);
+      const response = await axios.get(`https://portal-backend-w2dr.onrender.com/profile/specificprofile/${authId}`);
       setProfileData([response.data]);
     } catch (error) {
       console.log("Error occurred while fetching profile data:", error.message);
@@ -67,7 +67,7 @@ const CandidateProfile = () => {
 
     try {
       
-      const response = await axios.post(`http://localhost:5000/profile/uploadcv/${authId}`, formData, {
+      const response = await axios.post(`https://portal-backend-w2dr.onrender.com/profile/uploadcv/${authId}`, formData, {
         headers: {
           'Content-Type': 'multipart/form-data'
         }
@@ -112,7 +112,7 @@ const CandidateProfile = () => {
 // handle delete and download cv 
 const handleDownload = async (name) => {
   try {
-    const response = await axios.get(`http://localhost:5000/profile/download/${authId}`, {
+    const response = await axios.get(`https://portal-backend-w2dr.onrender.com/profile/download/${authId}`, {
       responseType: 'blob',
     });
     
@@ -141,7 +141,7 @@ const handleDownload = async (name) => {
 const handleDelete = async (id) => {
   try {
    
-   const response =  await axios.delete(`http://localhost:5000/profile/delete/${id}`);
+   const response =  await axios.delete(`https://portal-backend-w2dr.onrender.com/profile/delete/${id}`);
      
       if(response.status == 204){
         setShowToast(true); 

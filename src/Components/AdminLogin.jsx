@@ -23,7 +23,7 @@ const AdminLogin = ({setRole,setAdminToken,setAdminloggedin,setUserloggedin}) =>
    const handleSubmit = async(e)=>{
     e.preventDefault();
    try {
-    const response = await axios.post("http://localhost:5000/admin/login",formData);
+    const response = await axios.post("https://portal-backend-w2dr.onrender.com/admin/login",formData);
         localStorage.setItem('adauthToken', response.data.token);
         setAdminToken(response.data.token)
         console.log("Login response :",response);

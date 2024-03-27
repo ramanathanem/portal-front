@@ -13,7 +13,7 @@ function ProfileSummary({handleCloseModal}) {
 
   const fetchData = async () => {
     try {
-      const response = await axios.get(`http://localhost:5000/profile/specificprofile/${authId}`);
+      const response = await axios.get(`https://portal-backend-w2dr.onrender.com/profile/specificprofile/${authId}`);
       setSummary(response.data.profileSummary);
     } catch (error) {
       console.log("Error occurred while fetching profile data:", error.message);
@@ -28,7 +28,7 @@ function ProfileSummary({handleCloseModal}) {
     event.preventDefault();
 
     try {
-      const response = await axios.post(`http://localhost:5000/profile/summary/${authId}`, { summary });
+      const response = await axios.post(`https://portal-backend-w2dr.onrender.com/profile/summary/${authId}`, { summary });
       if (response.status === 201) {
         handleCloseModal()
       }

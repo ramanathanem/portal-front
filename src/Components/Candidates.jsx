@@ -16,7 +16,7 @@ function Candidates() {
 
     const handleDownload = async (candidateId) => {
         try {
-          const response = await axios.get(`http://localhost:5000/file/download/${candidateId}/${jobid}`, {
+          const response = await axios.get(`https://portal-backend-w2dr.onrender.com/file/download/${candidateId}/${jobid}`, {
             responseType: 'blob',
           });
           
@@ -56,7 +56,7 @@ function Candidates() {
         setData(newData);
 
         try {
-            const response = await axios.put(`http://localhost:5000/post/update/${jobid}`, {
+            const response = await axios.put(`https://portal-backend-w2dr.onrender.com/post/update/${jobid}`, {
                 status: value,
                 candidateId : candidateId
             });

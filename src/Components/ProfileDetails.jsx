@@ -22,7 +22,7 @@ const ProfileDetails = ({handleCloseModal}) => {
   // Function to fetch profile data from the server
   const fetchData = async () => {
     try {
-      const response = await axios.get(`http://localhost:5000/profile/specificprofile/${authId}`);
+      const response = await axios.get(`https://portal-backend-w2dr.onrender.com/profile/specificprofile/${authId}`);
      
       setProfile(response.data); // Assuming response.data contains the profile data
     } catch (error) {
@@ -49,7 +49,7 @@ const ProfileDetails = ({handleCloseModal}) => {
     e.preventDefault();
     try {
       // Update profile data on the server
-      const response = await axios.put(`http://localhost:5000/profile/update/${authId}`, profile);
+      const response = await axios.put(`https://portal-backend-w2dr.onrender.com/profile/update/${authId}`, profile);
       console.log("Profile Details Updated Successfully!");
       if(response.status == 200){
       fetchData();

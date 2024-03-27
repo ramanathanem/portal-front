@@ -45,7 +45,7 @@ const Logins = ({setUserloggedin,setToken}) => {
         });
         try {
           if (useridValid ) {
-            const response = await axios.post('http://localhost:5000/login/verify',loginFormData)
+            const response = await axios.post('https://portal-backend-w2dr.onrender.com/login/verify',loginFormData)
               if(response.data == true){
                 setshowOtp(true);
               }
@@ -88,7 +88,7 @@ const Logins = ({setUserloggedin,setToken}) => {
       });
 
       if (useridValid) {
-           const response = await axios.post('http://localhost:5000/signup/verify',signUpFormData)
+           const response = await axios.post('https://portal-backend-w2dr.onrender.com/signup/verify',signUpFormData)
            setShowSignupmessage(true);
           if(response.data == true ){
             setSignUpFeedback("Registration Successfull.Please Login");
@@ -109,7 +109,7 @@ const Logins = ({setUserloggedin,setToken}) => {
           const sendData = {email:loginFormData.email,
           otp:data.otp}
          try {
-          const response = await axios.post('http://localhost:5000/login/verifyotp',sendData);
+          const response = await axios.post('https://portal-backend-w2dr.onrender.com/login/verifyotp',sendData);
      
           if(response.status == 200){
             setToken(response.data.token);
